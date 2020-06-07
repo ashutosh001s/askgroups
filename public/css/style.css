@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+html{
+    scroll-behavior: smooth;
+}
+.logo{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.logo img{
+    width: 33%;
+    filter: invert(1);
+}
+
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+}
+.nav-list{
+ width: 70%;   
+ display: flex;
+ align-items: center;
+
+}
+.nav-list li{
+list-style: none;
+padding: 20px;
+}
+.nav-list li a{
+text-decoration: none;
+color: white;
+font-family: 'Ubuntu', sans-serif;
+}
+.nav-list li a:hover{
+text-decoration: none;
+color: grey;
+}
+
+.rightNav{
+    width: 30%;
+    text-align: right;
+    padding: 0 23px;
+    
+}
+#search {
+    padding: 3px 10px;
+    font-size: 17px;
+    border: 2px solid grey;
+    border-radius: 9px;
+    vertical-align: middle;
+    outline: none;
+}
+
+.background{
+    background: rgba(0, 0, 0, 0.7) url('../img/bg.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+.box-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    max-width: 50%;
+    margin: auto;
+    height: 80%;
+    
+}
+.firstSection{
+    height: 80vh;
+}
+
+.firstHalf{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.secondHalf{
+    width: 30%;
+
+}
+.secondHalf img {
+    width: 70%;
+    display: block;
+    margin: auto;
+}
+
+.text-big{
+font-size: 41px;
+padding-bottom: 10px;
+font-family: 'Ubuntu', sans-serif;
+}
+
+.text-small{
+font-size: 18px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+padding-bottom: 10px;
+}
+.btn{
+    padding: 8px 20px;
+    margin: 7px 4px;
+    border: 2px solid white;
+    border-radius: 8px;
+    background: none;
+    color: white;
+    cursor: pointer;
+    outline: none;
+    font-weight: bold;
+}
+.btn:hover{
+    color: black;
+    background-color: #fff;
+
+}
+
+.btn-sm{
+    padding: 3px 10px;
+    vertical-align: middle;
+}
+
+.section {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 80%;
+    margin: auto;
+    font-family: 'Ubuntu', sans-serif;
+    }
+.section-left {
+    flex-direction: row-reverse;
+    }
+
+
+.imgFluid{
+    height: 200px;
+    width: 200px;
+    
+}
+
+.paras{
+    padding: 34px 65px;
+}
+
+.sectionTag{
+    padding: 10px 0;
+}
+
+.sectionSubTag{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.contact{
+   background-color: whitesmoke;
+    height: 600px;
+}
+.text-center{
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2rem;
+    padding: 20px;
+}
+.form{
+    max-width: 62%;
+    margin: auto;
+}
+
+.form input {
+    width: 100%;
+    border: 2px solid grey;
+    border-radius: 6px;
+    outline: none;
+    padding: 10px 2px;
+    margin-top: 20px;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.form textarea{
+    width: 100%;
+    border: 2px solid grey;
+    border-radius: 6px;
+    outline: none;
+    padding: 5px 2px;
+    margin-top: 20px;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+}
+.btn-contact{
+    width: 100%;
+    border: 2px solid black;
+    border-radius: 6px;
+    outline: none;
+    color: black;
+    padding: 10px 2px;
+    margin-top: 20px;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: grey;
+}
+.btn-contact:hover{
+    color: white;
+    background-color: black;
+}
+
+footer{
+    height: 60px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   color: white;  
+   font-family: 'Ubuntu', sans-serif; 
+    
+}
+.burger{
+    display: none;
+    position: absolute;
+    cursor: pointer;
+    right: 5%;
+    top: 15px;
+
+}
+.line{
+    width: 33px;
+    background-color: #fff;
+    height: 4px;
+    margin: 5px 3px;
+}
+
